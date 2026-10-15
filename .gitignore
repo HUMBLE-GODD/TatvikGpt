@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Chat history local cache
+.chat_history/
+
+
+# Environment variables and secrets
+.env
+.env*.local
+*.env
+
+# Keep template and example files tracked
+!.env.example
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit runtime / secrets
+.streamlit/secrets.toml
+
+# macOS & OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.vscode/
+*.swp
+*.swo
